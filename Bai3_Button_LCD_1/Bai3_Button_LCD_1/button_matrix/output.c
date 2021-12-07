@@ -127,6 +127,19 @@ void setPortAo2(int x) {
     sendData2(portAo2,portAo2_length);
 }
 
+void Flash_yellow() {
+    if (((portAo2 >> 1)&1)  == ON)
+    {
+        CloseOutputPortAo2(1);
+        CloseOutputPortAo2(4);
+    }
+    else
+    {
+        OpenOutputPortAo2(1);
+        OpenOutputPortAo2(4);
+    }
+}
+
 void ReverseOutputPortAo2(int index)
 {
     if (((portAo2 >> index)&1)  == ON)

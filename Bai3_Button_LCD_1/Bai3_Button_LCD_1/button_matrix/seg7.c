@@ -68,7 +68,6 @@ void UpdateBuffer(int a,int b)
 	led_buffer[1]=a%10; // 2 den cua hang doc
     led_buffer[2]=b/10;
     led_buffer[3]=b%10;
-    
 }
 
 void ledScan()
