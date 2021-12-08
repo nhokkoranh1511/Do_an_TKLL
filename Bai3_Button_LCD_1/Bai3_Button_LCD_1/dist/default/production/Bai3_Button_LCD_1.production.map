@@ -1,5 +1,5 @@
 MPLINK 5.00, LINKER
-Linker Map File - Created Wed Dec 08 01:37:39 2021
+Linker Map File - Created Wed Dec 08 10:30:26 2021
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -10,48 +10,48 @@ Linker Map File - Created Wed Dec 08 01:37:39 2021
      .idata_interrupt.o_i    romdata   0x00000e    program   0x000004
        InterruptVectorLow       code   0x000018    program   0x000006
                    .cinit    romdata   0x00001e    program   0x000056
-             .code_main.o       code   0x000074    program   0x0019ae
-              .code_lcd.o       code   0x001a22    program   0x000e20
-           .code_output.o       code   0x002842    program   0x0009e8
-            .code_timer.o       code   0x00322a    program   0x00051c
-           .code_button.o       code   0x003746    program   0x0003d0
-             .code_seg7.o       code   0x003b16    program   0x000320
-        .code_interrupt.o       code   0x003e36    program   0x0001c4
-             .stringtable    romdata   0x003ffa    program   0x00012f
-        .romdata_button.o    romdata   0x004129    program   0x000000
-           .romdata_lcd.o    romdata   0x004129    program   0x000000
-          .romdata_seg7.o    romdata   0x004129    program   0x000000
-        .romdata_output.o    romdata   0x004129    program   0x000000
-      .idata_fxd1616u.o_i    romdata   0x004129    program   0x000000
-      .romdata_fxd1616u.o    romdata   0x004129    program   0x000000
-      .idata_fxd2424u.o_i    romdata   0x004129    program   0x000000
-      .romdata_fxd2424u.o    romdata   0x004129    program   0x000000
-      .idata_fxd3232u.o_i    romdata   0x004129    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x004129    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x004129    program   0x000000
-       .romdata_fxm3232.o    romdata   0x004129    program   0x000000
-        .idata___init.o_i    romdata   0x004129    program   0x000000
-        .romdata___init.o    romdata   0x004129    program   0x000000
-         .romdata_c018i.o    romdata   0x004129    program   0x000000
-         .idata_c018i.o_i    romdata   0x004129    program   0x000000
-     .romdata_interrupt.o    romdata   0x004129    program   0x000000
-          .romdata_main.o    romdata   0x004129    program   0x000000
-         .romdata_timer.o    romdata   0x004129    program   0x000000
-                     PROG       code   0x00412a    program   0x000100
-            .code_c018i.o       code   0x00412a    program   0x000000
-               _cinit_scn       code   0x00422a    program   0x00009e
-          .code_fxm3232.o       code   0x0042c8    program   0x000070
-         .code_fxd3232u.o       code   0x004338    program   0x000048
-         .code_fxd2424u.o       code   0x004380    program   0x00003a
-         .code_fxd1616u.o       code   0x0043ba    program   0x00002c
-                    .code       code   0x0043e6    program   0x000020
-             _startup_scn       code   0x004406    program   0x00001c
-         .idata_timer.o_i    romdata   0x004422    program   0x000020
-          .idata_seg7.o_i    romdata   0x004442    program   0x0000ac
-        .idata_output.o_i    romdata   0x0044ee    program   0x000024
-          .idata_main.o_i    romdata   0x004512    program   0x000016
-           .idata_lcd.o_i    romdata   0x004528    program   0x000061
-        .idata_button.o_i    romdata   0x004589    program   0x000030
+             .code_main.o       code   0x000074    program   0x00199e
+              .code_lcd.o       code   0x001a12    program   0x000e20
+           .code_output.o       code   0x002832    program   0x0009e8
+            .code_timer.o       code   0x00321a    program   0x00051c
+           .code_button.o       code   0x003736    program   0x0003d0
+             .code_seg7.o       code   0x003b06    program   0x000320
+        .code_interrupt.o       code   0x003e26    program   0x0001c4
+             .stringtable    romdata   0x003fea    program   0x00012f
+        .romdata_button.o    romdata   0x004119    program   0x000000
+           .romdata_lcd.o    romdata   0x004119    program   0x000000
+          .romdata_seg7.o    romdata   0x004119    program   0x000000
+        .romdata_output.o    romdata   0x004119    program   0x000000
+      .idata_fxd1616u.o_i    romdata   0x004119    program   0x000000
+      .romdata_fxd1616u.o    romdata   0x004119    program   0x000000
+      .idata_fxd2424u.o_i    romdata   0x004119    program   0x000000
+      .romdata_fxd2424u.o    romdata   0x004119    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x004119    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x004119    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x004119    program   0x000000
+       .romdata_fxm3232.o    romdata   0x004119    program   0x000000
+        .idata___init.o_i    romdata   0x004119    program   0x000000
+        .romdata___init.o    romdata   0x004119    program   0x000000
+         .romdata_c018i.o    romdata   0x004119    program   0x000000
+         .idata_c018i.o_i    romdata   0x004119    program   0x000000
+     .romdata_interrupt.o    romdata   0x004119    program   0x000000
+          .romdata_main.o    romdata   0x004119    program   0x000000
+         .romdata_timer.o    romdata   0x004119    program   0x000000
+                     PROG       code   0x00411a    program   0x000100
+            .code_c018i.o       code   0x00411a    program   0x000000
+               _cinit_scn       code   0x00421a    program   0x00009e
+          .code_fxm3232.o       code   0x0042b8    program   0x000070
+         .code_fxd3232u.o       code   0x004328    program   0x000048
+         .code_fxd2424u.o       code   0x004370    program   0x00003a
+         .code_fxd1616u.o       code   0x0043aa    program   0x00002c
+                    .code       code   0x0043d6    program   0x000020
+             _startup_scn       code   0x0043f6    program   0x00001c
+         .idata_timer.o_i    romdata   0x004412    program   0x000020
+          .idata_seg7.o_i    romdata   0x004432    program   0x0000ac
+        .idata_output.o_i    romdata   0x0044de    program   0x000024
+          .idata_main.o_i    romdata   0x004502    program   0x000016
+           .idata_lcd.o_i    romdata   0x004518    program   0x000061
+        .idata_button.o_i    romdata   0x004579    program   0x000030
     .config_300001_main.o    romdata   0x300001    program   0x000001
     .config_300002_main.o    romdata   0x300002    program   0x000001
     .config_300003_main.o    romdata   0x300003    program   0x000001
@@ -100,78 +100,78 @@ Linker Map File - Created Wed Dec 08 01:37:39 2021
                                Start         End      
                            ---------   ---------      
                             0x000000    0x000011      
-                            0x000018    0x004128      
-                            0x00412a    0x0045b8      
+                            0x000018    0x004118      
+                            0x00411a    0x0045a8      
                             0x300001    0x300003      
                             0x300005    0x300006      
                             0x300008    0x30000d      
-            17853 out of 66584 program addresses used, program memory utilization is 26%
+            17837 out of 66584 program addresses used, program memory utilization is 26%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-         BaiTap_ChongRung   0x00193c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              CloseOutput   0x002892    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-             CloseOutput2   0x0029ae    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-             CloseOutputE   0x002a82    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-        CloseOutputPortAo   0x002e94    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-       CloseOutputPortAo2   0x002bd6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-       CloseOutputPortAo3   0x003106    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                   D1616S   0x00414c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x00415a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x004156    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x00416c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                   D2424S   0x0041a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                D2424SNEG   0x0041ae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                 D2424SOK   0x0041aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                  D2424SX   0x0041c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                  DA1616S   0x00413c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA2424S   0x00418c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-         DisplayLcdScreen   0x002360    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-        DisplayLcdScreen2   0x002458    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-      DisplayLcdScreenOld   0x0024de    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-                 FXD1616S   0x00412a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXD1616U   0x0043ba    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                 FXD2424S   0x004176    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                 FXD2424U   0x004380    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
-                 FXD3232U   0x004338    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                 FXM1616S   0x0041d0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                  FXM3232   0x0042c8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-             Flash_yellow   0x002c9e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+         BaiTap_ChongRung   0x00192c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              CloseOutput   0x002882    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+             CloseOutput2   0x00299e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+             CloseOutputE   0x002a72    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+        CloseOutputPortAo   0x002e84    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+       CloseOutputPortAo2   0x002bc6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+       CloseOutputPortAo3   0x0030f6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                   D1616S   0x00413c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x00414a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x004146    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x00415c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D2424S   0x004190    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                D2424SNEG   0x00419e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 D2424SOK   0x00419a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  D2424SX   0x0041b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  DA1616S   0x00412c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA2424S   0x00417c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+         DisplayLcdScreen   0x002350    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+        DisplayLcdScreen2   0x002448    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+      DisplayLcdScreenOld   0x0024ce    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+                 FXD1616S   0x00411a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD1616U   0x0043aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                 FXD2424S   0x004166    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 FXD2424U   0x004370    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
+                 FXD3232U   0x004328    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x0041c0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                  FXM3232   0x0042b8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+             Flash_yellow   0x002c8e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
       InterruptVectorHigh   0x000008    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
        InterruptVectorLow   0x000018    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
-                LcdClearS   0x002302    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            LcdPrintCharS   0x002548    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-              LcdPrintNum   0x002240    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-             LcdPrintNumS   0x00259e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-           LcdPrintString   0x002288    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          LcdPrintStringS   0x0027ec    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-               OpenOutput   0x002842    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-              OpenOutput2   0x00295e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-              OpenOutputE   0x002a78    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-         OpenOutputPortAo   0x002e20    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-        OpenOutputPortAo2   0x002b62    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-        OpenOutputPortAo3   0x003092    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-            ReverseOutput   0x0028e2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-           ReverseOutput2   0x0029fe    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-      ReverseOutputPortAo   0x002f5c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-     ReverseOutputPortAo2   0x002cee    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-     ReverseOutputPortAo3   0x0031ce    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-             SetTimer0_ms   0x0036a6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             SetTimer1_ms   0x0036ca    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             SetTimer3_ms   0x003708    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-               TSIGN1616A   0x00421c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-           Test_KeyMatrix   0x00199e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-             UpdateBuffer   0x003d4e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
-       ___return_lbl00000   0x0043e4    program     static                          
-       ___return_lbl00000   0x0043b8    program     static                          
-       ___return_lbl00000   0x00437e    program     static                          
+                LcdClearS   0x0022f2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            LcdPrintCharS   0x002538    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+              LcdPrintNum   0x002230    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+             LcdPrintNumS   0x00258e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+           LcdPrintString   0x002278    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          LcdPrintStringS   0x0027dc    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+               OpenOutput   0x002832    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+              OpenOutput2   0x00294e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+              OpenOutputE   0x002a68    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+         OpenOutputPortAo   0x002e10    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+        OpenOutputPortAo2   0x002b52    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+        OpenOutputPortAo3   0x003082    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+            ReverseOutput   0x0028d2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+           ReverseOutput2   0x0029ee    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+      ReverseOutputPortAo   0x002f4c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+     ReverseOutputPortAo2   0x002cde    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+     ReverseOutputPortAo3   0x0031be    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+             SetTimer0_ms   0x003696    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             SetTimer1_ms   0x0036ba    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             SetTimer3_ms   0x0036f8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+               TSIGN1616A   0x00420c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+           Test_KeyMatrix   0x00198e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+             UpdateBuffer   0x003d3e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+       ___return_lbl00000   0x0043d4    program     static                          
+       ___return_lbl00000   0x0043a8    program     static                          
+       ___return_lbl00000   0x00436e    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x004336    program     static                          
-       ___return_lbl00001   0x004420    program     static                          
-       ___return_lbl00002   0x0042c6    program     static                          
+       ___return_lbl00000   0x004326    program     static                          
+       ___return_lbl00001   0x004410    program     static                          
+       ___return_lbl00002   0x0042b6    program     static                          
        ___return_lbl00002   0x00001c    program     static                          
        ___return_lbl00003   0x00000c    program     static                          
                __config_0   0x300001    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
@@ -186,116 +186,116 @@ Linker Map File - Created Wed Dec 08 01:37:39 2021
                __config_8   0x30000b    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
                __config_9   0x30000c    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
                    __init   0x000006    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\stdclib\__init.c
-               __string_0   0x00411a    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_1   0x00410b    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_10   0x004084    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_11   0x004075    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_12   0x004064    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_13   0x004053    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_14   0x004042    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_15   0x004031    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_16   0x004028    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_17   0x004021    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_18   0x004018    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_19   0x00400f    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_2   0x0040fc    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_20   0x004003    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_21   0x003ffe    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_22   0x003ffc    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_23   0x003ffa    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_3   0x0040ed    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_4   0x0040de    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_5   0x0040cf    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_6   0x0040c0    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_7   0x0040b1    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_8   0x0040a2    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_9   0x004093    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-            __zero_memory   0x0043e6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                _do_cinit   0x00422a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+               __string_0   0x00410a    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_1   0x0040fb    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_10   0x004074    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_11   0x004065    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_12   0x004054    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_13   0x004043    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_14   0x004032    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_15   0x004021    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_16   0x004018    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_17   0x004011    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_18   0x004008    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_19   0x003fff    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_2   0x0040ec    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_20   0x003ff3    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_21   0x003fee    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_22   0x003fec    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_23   0x003fea    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_3   0x0040dd    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_4   0x0040ce    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_5   0x0040bf    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_6   0x0040b0    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_7   0x0040a1    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_8   0x004092    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_9   0x004083    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+            __zero_memory   0x0043d6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                _do_cinit   0x00421a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                   _false   0x00437a    program     static                          
-                   _false   0x0043b4    program     static                          
-                 _startup   0x004406    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-          button_delay_ms   0x003968    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+                   _false   0x00436a    program     static                          
+                   _false   0x0043a4    program     static                          
+                 _startup   0x0043f6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+          button_delay_ms   0x003958    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
         button_processing   0x0010e2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-                compare_l   0x0043fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                copy_loop   0x00429c    program     static                          
-            copy_one_byte   0x0042a2    program     static                          
+                compare_l   0x0043ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                copy_loop   0x00428c    program     static                          
+            copy_one_byte   0x004292    program     static                          
                  delay_ms   0x00009e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              display7SEG   0x003b16    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+              display7SEG   0x003b06    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
               displayTime   0x0007e8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
              displayTime2   0x000974    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
              displayTime3   0x000b88    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-                     done   0x0042c6    program     static                          
-             done_copying   0x0042b0    program     static                          
-                  endloop   0x0043e0    program     static                          
-                 high_isr   0x003f2a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
-            init_ext_int0   0x003e3e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
-           init_interrupt   0x003e36    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
-          init_key_matrix   0x003746    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
-                 init_lcd   0x001bc2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+                     done   0x0042b6    program     static                          
+             done_copying   0x0042a0    program     static                          
+                  endloop   0x0043d0    program     static                          
+                 high_isr   0x003f1a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
+            init_ext_int0   0x003e2e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
+           init_interrupt   0x003e26    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
+          init_key_matrix   0x003736    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+                 init_lcd   0x001bb2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
               init_system   0x000126    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              init_timer0   0x00322a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              init_timer1   0x00336e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              init_timer2   0x0034b8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              init_timer3   0x0034f0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              init_timer0   0x00321a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              init_timer1   0x00335e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              init_timer2   0x0034a8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              init_timer3   0x0034e0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
              init_traffic   0x0001c6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-             isButtonDown   0x00192c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               isButtonUp   0x001900    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-                lcd_clear   0x001f14    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-                lcd_delay   0x001a22    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-             lcd_power_of   0x001f28    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-           lcd_print_char   0x001e80    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          lcd_print_charS   0x0022bc    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            lcd_print_num   0x00200a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            lcd_print_str   0x001e9a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-              lcd_putchar   0x001e66    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          lcd_read_status   0x001cd0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          lcd_sendCommand   0x001b42    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-           lcd_set_cursor   0x001eda    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            lcd_wait_busy   0x001d86    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          lcd_write_4bits   0x001da6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            lcd_write_cmd   0x001dec    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-           lcd_write_data   0x001e28    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-                  ledScan   0x003df6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
-                     loop   0x0043c4    program     static                          
-                     loop   0x00438c    program     static                          
-                     loop   0x004416    program     static                          
-                     loop   0x004346    program     static                          
-                   loop_h   0x0043f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                   loop_l   0x0043fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                  low_isr   0x003e46    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
+             isButtonDown   0x00191c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               isButtonUp   0x0018f0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+                lcd_clear   0x001f04    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+                lcd_delay   0x001a12    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+             lcd_power_of   0x001f18    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+           lcd_print_char   0x001e70    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          lcd_print_charS   0x0022ac    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            lcd_print_num   0x001ffa    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            lcd_print_str   0x001e8a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+              lcd_putchar   0x001e56    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          lcd_read_status   0x001cc0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          lcd_sendCommand   0x001b32    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+           lcd_set_cursor   0x001eca    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            lcd_wait_busy   0x001d76    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          lcd_write_4bits   0x001d96    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            lcd_write_cmd   0x001ddc    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+           lcd_write_data   0x001e18    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+                  ledScan   0x003de6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+                     loop   0x0043b4    program     static                          
+                     loop   0x00437c    program     static                          
+                     loop   0x004406    program     static                          
+                     loop   0x004336    program     static                          
+                   loop_h   0x0043e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   loop_l   0x0043ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                  low_isr   0x003e36    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
                      main   0x000074    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
                modify_fsm   0x0016a8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-                resetScan   0x003e2e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
-          scan_key_button   0x00374e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
-          scan_key_matrix   0x00380a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
-     scan_key_matrix_demo   0x0039f0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
-                 sendData   0x002d4a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                sendData2   0x002a8c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                sendData3   0x002fb8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                 setPort2   0x002a4c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                setPortAo   0x002f0a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-               setPortAo2   0x002c4c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-               setPortAo3   0x00317c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                resetScan   0x003e1e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+          scan_key_button   0x00373e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+          scan_key_matrix   0x0037fa    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+     scan_key_matrix_demo   0x0039e0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+                 sendData   0x002d3a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                sendData2   0x002a7c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                sendData3   0x002fa8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                 setPort2   0x002a3c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                setPortAo   0x002efa    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+               setPortAo2   0x002c3c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+               setPortAo3   0x00316c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
 setting_when_changing_mode   0x000e44    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-             start_timer0   0x0032e2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             start_timer1   0x003428    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             start_timer2   0x0034e4    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             start_timer3   0x0035a6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              stop_timer0   0x0032de    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              stop_timer1   0x0034b4    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              stop_timer2   0x0034ec    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              stop_timer3   0x003632    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-                     test   0x004244    program     static                          
-               timer0_isr   0x003636    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-               timer1_isr   0x003652    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-               timer2_isr   0x00366e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-               timer3_isr   0x00368a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             start_timer0   0x0032d2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             start_timer1   0x003418    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             start_timer2   0x0034d4    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             start_timer3   0x003596    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              stop_timer0   0x0032ce    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              stop_timer1   0x0034a4    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              stop_timer2   0x0034dc    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              stop_timer3   0x003622    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+                     test   0x004234    program     static                          
+               timer0_isr   0x003626    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+               timer1_isr   0x003642    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+               timer2_isr   0x00365e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+               timer3_isr   0x00367a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
               traffic_fsm   0x0002f0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               update7SEG   0x003c8c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
-                 v_timer0   0x001ab2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-               zero_block   0x0043f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               update7SEG   0x003c7c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+                 v_timer0   0x001aa2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+               zero_block   0x0043e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    ADCON0   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                ADCON0bits   0x000fc2       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
                    ADCON1   0x000fc1       data     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
@@ -596,161 +596,161 @@ setting_when_changing_mode   0x000e44    program     extern C:\Users\ASUS\Downlo
 setting_when_changing_mode   0x000e44    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
         button_processing   0x0010e2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
                modify_fsm   0x0016a8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               isButtonUp   0x001900    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-             isButtonDown   0x00192c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-         BaiTap_ChongRung   0x00193c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-           Test_KeyMatrix   0x00199e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-                lcd_delay   0x001a22    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-                 v_timer0   0x001ab2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          lcd_sendCommand   0x001b42    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-                 init_lcd   0x001bc2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          lcd_read_status   0x001cd0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            lcd_wait_busy   0x001d86    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          lcd_write_4bits   0x001da6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            lcd_write_cmd   0x001dec    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-           lcd_write_data   0x001e28    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-              lcd_putchar   0x001e66    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-           lcd_print_char   0x001e80    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            lcd_print_str   0x001e9a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-           lcd_set_cursor   0x001eda    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-                lcd_clear   0x001f14    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-             lcd_power_of   0x001f28    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            lcd_print_num   0x00200a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-              LcdPrintNum   0x002240    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-           LcdPrintString   0x002288    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          lcd_print_charS   0x0022bc    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-                LcdClearS   0x002302    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-         DisplayLcdScreen   0x002360    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-        DisplayLcdScreen2   0x002458    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-      DisplayLcdScreenOld   0x0024de    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-            LcdPrintCharS   0x002548    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-             LcdPrintNumS   0x00259e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-          LcdPrintStringS   0x0027ec    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
-               OpenOutput   0x002842    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-              CloseOutput   0x002892    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-            ReverseOutput   0x0028e2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-              OpenOutput2   0x00295e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-             CloseOutput2   0x0029ae    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-           ReverseOutput2   0x0029fe    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                 setPort2   0x002a4c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-              OpenOutputE   0x002a78    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-             CloseOutputE   0x002a82    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                sendData2   0x002a8c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-        OpenOutputPortAo2   0x002b62    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-       CloseOutputPortAo2   0x002bd6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-               setPortAo2   0x002c4c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-             Flash_yellow   0x002c9e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-     ReverseOutputPortAo2   0x002cee    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                 sendData   0x002d4a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-         OpenOutputPortAo   0x002e20    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-        CloseOutputPortAo   0x002e94    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                setPortAo   0x002f0a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-      ReverseOutputPortAo   0x002f5c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-                sendData3   0x002fb8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-        OpenOutputPortAo3   0x003092    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-       CloseOutputPortAo3   0x003106    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-               setPortAo3   0x00317c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-     ReverseOutputPortAo3   0x0031ce    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
-              init_timer0   0x00322a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              stop_timer0   0x0032de    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             start_timer0   0x0032e2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              init_timer1   0x00336e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             start_timer1   0x003428    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              stop_timer1   0x0034b4    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              init_timer2   0x0034b8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             start_timer2   0x0034e4    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              stop_timer2   0x0034ec    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              init_timer3   0x0034f0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             start_timer3   0x0035a6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-              stop_timer3   0x003632    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-               timer0_isr   0x003636    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-               timer1_isr   0x003652    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-               timer2_isr   0x00366e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-               timer3_isr   0x00368a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             SetTimer0_ms   0x0036a6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             SetTimer1_ms   0x0036ca    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-             SetTimer3_ms   0x003708    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
-          init_key_matrix   0x003746    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
-          scan_key_button   0x00374e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
-          scan_key_matrix   0x00380a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
-          button_delay_ms   0x003968    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
-     scan_key_matrix_demo   0x0039f0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
-              display7SEG   0x003b16    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
-               update7SEG   0x003c8c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
-             UpdateBuffer   0x003d4e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
-                  ledScan   0x003df6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
-                resetScan   0x003e2e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
-           init_interrupt   0x003e36    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
-            init_ext_int0   0x003e3e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
-                  low_isr   0x003e46    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
-                 high_isr   0x003f2a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
-              __string_23   0x003ffa    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_22   0x003ffc    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_21   0x003ffe    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_20   0x004003    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_19   0x00400f    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_18   0x004018    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_17   0x004021    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_16   0x004028    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_15   0x004031    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_14   0x004042    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_13   0x004053    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_12   0x004064    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_11   0x004075    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-              __string_10   0x004084    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_9   0x004093    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_8   0x0040a2    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_7   0x0040b1    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_6   0x0040c0    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_5   0x0040cf    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_4   0x0040de    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_3   0x0040ed    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_2   0x0040fc    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_1   0x00410b    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-               __string_0   0x00411a    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
-                 FXD1616S   0x00412a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  DA1616S   0x00413c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                   D1616S   0x00414c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 D1616SOK   0x004156    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                D1616SNEG   0x00415a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                  D1616SX   0x00416c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
-                 FXD2424S   0x004176    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                  DA2424S   0x00418c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                   D2424S   0x0041a0    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                 D2424SOK   0x0041aa    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                D2424SNEG   0x0041ae    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                  D2424SX   0x0041c6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
-                 FXM1616S   0x0041d0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x00421c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
-                _do_cinit   0x00422a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     test   0x004244    program     static                          
-                copy_loop   0x00429c    program     static                          
-            copy_one_byte   0x0042a2    program     static                          
-             done_copying   0x0042b0    program     static                          
-                     done   0x0042c6    program     static                          
-       ___return_lbl00002   0x0042c6    program     static                          
-                  FXM3232   0x0042c8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x004336    program     static                          
-                 FXD3232U   0x004338    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
-                     loop   0x004346    program     static                          
-                   _false   0x00437a    program     static                          
-       ___return_lbl00000   0x00437e    program     static                          
-                 FXD2424U   0x004380    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
-                     loop   0x00438c    program     static                          
-                   _false   0x0043b4    program     static                          
-       ___return_lbl00000   0x0043b8    program     static                          
-                 FXD1616U   0x0043ba    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
-                     loop   0x0043c4    program     static                          
-                  endloop   0x0043e0    program     static                          
-       ___return_lbl00000   0x0043e4    program     static                          
-            __zero_memory   0x0043e6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-               zero_block   0x0043f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                   loop_h   0x0043f4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                compare_l   0x0043fc    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                   loop_l   0x0043fe    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
-                 _startup   0x004406    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
-                     loop   0x004416    program     static                          
-       ___return_lbl00001   0x004420    program     static                          
+               isButtonUp   0x0018f0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+             isButtonDown   0x00191c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+         BaiTap_ChongRung   0x00192c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+           Test_KeyMatrix   0x00198e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+                lcd_delay   0x001a12    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+                 v_timer0   0x001aa2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          lcd_sendCommand   0x001b32    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+                 init_lcd   0x001bb2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          lcd_read_status   0x001cc0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            lcd_wait_busy   0x001d76    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          lcd_write_4bits   0x001d96    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            lcd_write_cmd   0x001ddc    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+           lcd_write_data   0x001e18    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+              lcd_putchar   0x001e56    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+           lcd_print_char   0x001e70    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            lcd_print_str   0x001e8a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+           lcd_set_cursor   0x001eca    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+                lcd_clear   0x001f04    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+             lcd_power_of   0x001f18    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            lcd_print_num   0x001ffa    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+              LcdPrintNum   0x002230    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+           LcdPrintString   0x002278    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          lcd_print_charS   0x0022ac    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+                LcdClearS   0x0022f2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+         DisplayLcdScreen   0x002350    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+        DisplayLcdScreen2   0x002448    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+      DisplayLcdScreenOld   0x0024ce    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+            LcdPrintCharS   0x002538    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+             LcdPrintNumS   0x00258e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+          LcdPrintStringS   0x0027dc    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\lcd\lcd.c
+               OpenOutput   0x002832    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+              CloseOutput   0x002882    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+            ReverseOutput   0x0028d2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+              OpenOutput2   0x00294e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+             CloseOutput2   0x00299e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+           ReverseOutput2   0x0029ee    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                 setPort2   0x002a3c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+              OpenOutputE   0x002a68    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+             CloseOutputE   0x002a72    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                sendData2   0x002a7c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+        OpenOutputPortAo2   0x002b52    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+       CloseOutputPortAo2   0x002bc6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+               setPortAo2   0x002c3c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+             Flash_yellow   0x002c8e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+     ReverseOutputPortAo2   0x002cde    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                 sendData   0x002d3a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+         OpenOutputPortAo   0x002e10    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+        CloseOutputPortAo   0x002e84    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                setPortAo   0x002efa    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+      ReverseOutputPortAo   0x002f4c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+                sendData3   0x002fa8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+        OpenOutputPortAo3   0x003082    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+       CloseOutputPortAo3   0x0030f6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+               setPortAo3   0x00316c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+     ReverseOutputPortAo3   0x0031be    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\output.c
+              init_timer0   0x00321a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              stop_timer0   0x0032ce    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             start_timer0   0x0032d2    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              init_timer1   0x00335e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             start_timer1   0x003418    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              stop_timer1   0x0034a4    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              init_timer2   0x0034a8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             start_timer2   0x0034d4    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              stop_timer2   0x0034dc    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              init_timer3   0x0034e0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             start_timer3   0x003596    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+              stop_timer3   0x003622    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+               timer0_isr   0x003626    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+               timer1_isr   0x003642    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+               timer2_isr   0x00365e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+               timer3_isr   0x00367a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             SetTimer0_ms   0x003696    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             SetTimer1_ms   0x0036ba    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+             SetTimer3_ms   0x0036f8    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\timer\timer.c
+          init_key_matrix   0x003736    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+          scan_key_button   0x00373e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+          scan_key_matrix   0x0037fa    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+          button_delay_ms   0x003958    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+     scan_key_matrix_demo   0x0039e0    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\button.c
+              display7SEG   0x003b06    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+               update7SEG   0x003c7c    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+             UpdateBuffer   0x003d3e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+                  ledScan   0x003de6    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+                resetScan   0x003e1e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\button_matrix\seg7.c
+           init_interrupt   0x003e26    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
+            init_ext_int0   0x003e2e    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
+                  low_isr   0x003e36    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
+                 high_isr   0x003f1a    program     extern C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\interrupt\interrupt.c
+              __string_23   0x003fea    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_22   0x003fec    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_21   0x003fee    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_20   0x003ff3    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_19   0x003fff    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_18   0x004008    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_17   0x004011    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_16   0x004018    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_15   0x004021    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_14   0x004032    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_13   0x004043    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_12   0x004054    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_11   0x004065    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+              __string_10   0x004074    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_9   0x004083    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_8   0x004092    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_7   0x0040a1    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_6   0x0040b0    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_5   0x0040bf    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_4   0x0040ce    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_3   0x0040dd    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_2   0x0040ec    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_1   0x0040fb    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+               __string_0   0x00410a    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
+                 FXD1616S   0x00411a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  DA1616S   0x00412c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                   D1616S   0x00413c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 D1616SOK   0x004146    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                D1616SNEG   0x00414a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                  D1616SX   0x00415c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616s.asm
+                 FXD2424S   0x004166    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  DA2424S   0x00417c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                   D2424S   0x004190    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 D2424SOK   0x00419a    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                D2424SNEG   0x00419e    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                  D2424SX   0x0041b6    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424s.asm
+                 FXM1616S   0x0041c0    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x00420c    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm1616s.asm
+                _do_cinit   0x00421a    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     test   0x004234    program     static                          
+                copy_loop   0x00428c    program     static                          
+            copy_one_byte   0x004292    program     static                          
+             done_copying   0x0042a0    program     static                          
+                     done   0x0042b6    program     static                          
+       ___return_lbl00002   0x0042b6    program     static                          
+                  FXM3232   0x0042b8    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x004326    program     static                          
+                 FXD3232U   0x004328    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd3232u.c
+                     loop   0x004336    program     static                          
+                   _false   0x00436a    program     static                          
+       ___return_lbl00000   0x00436e    program     static                          
+                 FXD2424U   0x004370    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd2424u.c
+                     loop   0x00437c    program     static                          
+                   _false   0x0043a4    program     static                          
+       ___return_lbl00000   0x0043a8    program     static                          
+                 FXD1616U   0x0043aa    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\math\fxd1616u.c
+                     loop   0x0043b4    program     static                          
+                  endloop   0x0043d0    program     static                          
+       ___return_lbl00000   0x0043d4    program     static                          
+            __zero_memory   0x0043d6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+               zero_block   0x0043e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   loop_h   0x0043e4    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                compare_l   0x0043ec    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                   loop_l   0x0043ee    program     static E:\3.46\pic18-lt\cxx-framework\src\traditional\proc\p18f4620.asm
+                 _startup   0x0043f6    program     extern E:\3.46\pic18-lt\cxx-framework\src\traditional\startup\c018i.c
+                     loop   0x004406    program     static                          
+       ___return_lbl00001   0x004410    program     static                          
                __config_0   0x300001    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
                __config_1   0x300002    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c
                __config_2   0x300003    program     static C:\Users\ASUS\Downloads\Do_an\Do_an_TKLL\Bai3_Button_LCD_1\Bai3_Button_LCD_1\main.c

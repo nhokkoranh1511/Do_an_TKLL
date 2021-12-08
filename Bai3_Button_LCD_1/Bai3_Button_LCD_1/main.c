@@ -831,7 +831,7 @@ void modify_fsm() {
 
         case FLASH_YELLOW:
             if (flag_timer0) {
-                LcdClearS();
+                //LcdClearS();
                 LcdPrintStringS(0,0,"CANH BAO");
                 Flash_yellow();
                 SetTimer0_ms(500);
@@ -839,28 +839,28 @@ void modify_fsm() {
 
         case ONLY_RED:
             if (flag_timer0) {
-                LcdClearS();
+                //LcdClearS();
                 LcdPrintStringS(0,0,"DEN DO");
                 CloseOutputPortAo2(0);
-                CloseOutputPortAo2(3);
+                CloseOutputPortAo2(5);
                 SetTimer0_ms(500);
             }
         
         case ONLY_YELLOW:
             if (flag_timer0) {
-                LcdClearS();
+                //LcdClearS();
                 LcdPrintStringS(0,0,"DEN VANG");
                 CloseOutputPortAo2(1);
-                CloseOutputPortAo2(4);
+                CloseOutputPortAo2(3);
                 SetTimer0_ms(500);
             }
 
         case ONLY_GREEN:
             if (flag_timer0) {
-                LcdClearS();
+                //LcdClearS();
                 LcdPrintStringS(0,0,"DEN XANH");
                 CloseOutputPortAo2(2);
-                CloseOutputPortAo2(5);
+                CloseOutputPortAo2(3);
                 SetTimer0_ms(500);
             }
         
